@@ -9,15 +9,6 @@ Sprendimo žodinis aprašymas:
 	jei D < 0, kvadratinė lygtis neturi realių sprendinių;
 	jei D = 0, tuomet kvadratinė lygtis turi vieną sprendinį
 	jei D > 0, tuomet kvadratinė lygtis turi du sprendinius:
-Pasitikrinkite
- 
-Išspręskite kvadratines lygtis:
-o	x2 + 14x + 49 = 0; (-7)
-o	x2- 12x + 36 = 0; (6)
-o	x2– 8x – 9 = 0; (-1; 9)
-o	x2– 5x + 6 = 0; (2; 3)
-o	x2 – x + 2 = 0; ()
-o	–x2 + 4x + 1 = 0; (4,24; -0,24)
 */
 #include <cmath>
 #include <iostream>
@@ -34,7 +25,7 @@ int main()
 	D = b*2 - 4*a*c;
 
 	if (D > 0) {
-		std::cout << "kvadratine lygtis turi du sprendinius" << '\n';
+		std::cout << "kvadratine lygtis turi du sprendinius" << \n;
 		x1 = (-b + sqrt(D)) / (2 * a);
 		x2 = (-b - sqrt(D)) / (2 * a);
 		std::cout << x1 << '\n';
@@ -42,7 +33,7 @@ int main()
 	}
 	else if (D == 0)
 	{
-		std::cout << "kvadratine lygtis turi vieną sprendini" << '\n';
+		std::cout << "kvadratine lygtis turi vieną sprendini" << \n;
 		x1 = (-b + sqrt(D)) / (2 * a);
 		std::cout << x1;
 	}
