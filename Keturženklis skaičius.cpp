@@ -18,7 +18,7 @@ int main()
    d = k % 10;
 
     s = a + b + c + d;
-    std::cout << "skaitmenu suma" << "=" << s;
+    std::cout << "skaitmenu suma " << s;
     
     return 0;
 
