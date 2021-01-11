@@ -25,7 +25,7 @@ int main()
     k = (n * d - m * d) / t; 
     a = (n * d - m * d) % t;
 
-    std::cout << "Supakuotu deziu kiekis "  << k <<'\n';
+    std::cout << "Supakuotu deziu kiekis "  << k << \n;
     std::cout << " Likusios nesupakuotos dezes " << a;
 
     return 0;
