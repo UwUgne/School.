@@ -20,7 +20,7 @@ int main()
   e = k % 10;
     
     np = b * 10000 + a * 1000 + e * 100 + a * 10 + c;
-    cout << "penkezeklis skaicius " << "=" << np;
+    cout << "penkezeklis skaicius " <<  np;
     
     return 0;
 
