@@ -12,6 +12,6 @@ int main ()
    std::cin >> y;
    m = x * 60 + y;
    s = m * 60;
-   std::cout << m;
+   std::cout << m <<\n;
    std::cout << s;
 }
