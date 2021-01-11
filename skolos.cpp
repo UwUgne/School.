@@ -2,12 +2,13 @@ int main()
 {
     int  j, s, r;
     int  k;
-    cout << "jurgis turejo j euru" >> ;
-    cin >> j;
-    cout << "roma pasiskolino r euru" >> ;
-    cin >> r;
-    cout << " simas pasiskolino s euru" >> ;
-    cin >> s;
+   std::cout << "jurgis turejo j euru";
+   std::cin >> j;
+   std:: cout << "roma pasiskolino r euru";
+   std::cin >> r;
+   std::cout << " simas pasiskolino s euru";
+   std::cin >> s;
     k = j - r - s;
+    std::cout << k; 
     return 0;
 }
