@@ -20,8 +20,8 @@ int main()
     a = k * 1000 / 2 / n;
     round (p = k * 1000 / 2 % n);
 
-    std::cout << " paskutinio akvariumo zuveliu skaicius " << "=" << a;
-    std::cout << " pilni akvariumai " << "=" << p;
+    std::cout << " paskutinio akvariumo zuveliu skaicius " << a;
+    std::cout << " pilni akvariumai " << p;
 
     return 0;
      
