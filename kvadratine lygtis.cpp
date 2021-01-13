@@ -14,7 +14,8 @@ Sprendimo žodinis aprašymas:
 #include <iostream>
 int main()
 {
-	int a, b, c, D, x1, x2;
+	int a, b, c;
+	double D, x1, x2;
 	std::cout << "iveskite a reiksme: ";
 	std::cin >> a;
 	std::cout << "iveskite b reiksme: ";
@@ -22,7 +23,7 @@ int main()
 	std::cout << "iveskite c reiksme: ";
 	std::cin >> c;
 	
-	D = b*2 - 4*a*c;
+	D = b*b- 4*a*c;
 
 	if (D > 0) {
 		std::cout << "kvadratine lygtis turi du sprendinius" << \n;
