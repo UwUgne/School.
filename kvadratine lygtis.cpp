@@ -14,6 +14,10 @@ Sprendimo žodinis aprašymas:
 #include <iostream>
 int main()
 {
+	#include <cmath>
+#include <iostream>
+int main()
+{
 	int a, b, c;
 	double D, x1, x2;
 	std::cout << "iveskite a reiksme: ";
@@ -22,25 +26,24 @@ int main()
 	std::cin >> b;
 	std::cout << "iveskite c reiksme: ";
 	std::cin >> c;
-	
-	D = b*b- 4*a*c;
+
+	D = b * b - 4 * a * c;
 
 	if (D > 0) {
-		std::cout << "kvadratine lygtis turi du sprendinius" << \n;
+		std::cout << "kvadratine lygtis turi du sprendinius" << '\n';
 		x1 = (-b + sqrt(D)) / (2 * a);
 		x2 = (-b - sqrt(D)) / (2 * a);
 		std::cout << x1 << '\n';
-		std::cout << x2 << '\n';
+		std::cout << x2;
 	}
 	else if (D == 0)
 	{
-		std::cout << "kvadratine lygtis turi vieną sprendini" << \n;
+		std::cout << "kvadratine lygtis turi vieną sprendini" << '\n';
 		x1 = (-b + sqrt(D)) / (2 * a);
 		std::cout << x1;
 	}
-	else {
+	else 
 		std::cout << "kvadratine lygtis neturi realiu sprendiniu";
-	
-	}
-	return 0;
+
+    return 0;
 }
