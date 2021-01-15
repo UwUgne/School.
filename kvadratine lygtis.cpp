@@ -12,10 +12,8 @@ Sprendimo žodinis aprašymas:
 */
 #include <cmath>
 #include <iostream>
-int main()
-{
-	#include <cmath>
-#include <iostream>
+#include <iomanip>
+
 int main()
 {
 	int a, b, c;
@@ -33,14 +31,14 @@ int main()
 		std::cout << "kvadratine lygtis turi du sprendinius" << '\n';
 		x1 = (-b + sqrt(D)) / (2 * a);
 		x2 = (-b - sqrt(D)) / (2 * a);
-		std::cout << x1 << '\n';
-		std::cout << x2;
+		std::cout <<std::fixed<< std::setprecision(2) << x1 << '\n';
+		std::cout <<std::fixed <<std::setprecision(2) << x2;
 	}
 	else if (D == 0)
 	{
 		std::cout << "kvadratine lygtis turi vieną sprendini" << '\n';
 		x1 = (-b + sqrt(D)) / (2 * a);
-		std::cout << x1;
+		std::cout << std::fixed <<std::setprecision(2) << x1;
 	}
 	else 
 		std::cout << "kvadratine lygtis neturi realiu sprendiniu";
