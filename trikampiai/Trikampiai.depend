@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644301533 source:c:\users\mokinys04\documents\4gd\trikampiai\main.cpp
+	<iostream>
+	<cmath>
+	<fstream>
+
