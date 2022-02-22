@@ -13,7 +13,8 @@ int main()
 
     double xt, yt, A[2], B[2], C[2];
 
-    Skaiciai >> xt >> yt;
+    Skaiciai >> xt;
+    Skaiciai >> yt;
     Skaiciai >> A[1] >> A[2];
     Skaiciai >> B[1] >> B[2];
     Skaiciai >> C[1] >> C[2];
@@ -39,7 +40,7 @@ double Plotai(double ac, double ab, double bc, double ad, double bd, double cd)
 
     double plotas = ABD + BCD + ACD;
 
-    if (ABC = plotas)
+    if (ABC >= plotas)
     {
      Atsakymas << "Taskas yra trikampio viduje";
     }
