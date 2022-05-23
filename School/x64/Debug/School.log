@@ -1,0 +1,4 @@
+﻿  School.cpp
+C:\Users\Ghost\source\repos\School\School\School.cpp(45,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ghost\source\repos\School\School\School.cpp(36): error C4716: 'Skaityti': must return a value
+C:\Users\Ghost\source\repos\School\School\School.cpp(56): error C4716: 'Spausdinti': must return a value
